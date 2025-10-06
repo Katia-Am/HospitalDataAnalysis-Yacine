@@ -1,0 +1,4 @@
+﻿PatientID,Age,Sex,BloodPressure,Cholesterol,Diagnosis
+p1,20,male,100,250,at risk
+p2,50,female,120,200,heart disease
+p3,32,female,110,230,healthy
