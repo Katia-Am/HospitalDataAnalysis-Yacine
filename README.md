@@ -76,10 +76,11 @@ Save and close the file.
 ##  Step 4 – Launch Jupyter Notebook
 
 Running Jupyter:
-<img src="screenshots/jupyter_interface.png" width="700">
+
 ```bash
 jupyter notebook
 ```
+<img src="screenshots/jupyter_interface.png" width="700">
 
 In the browser, we goto  **notebooks/** folder and create a new notebook named **patients_analysis.ipynb**.
 
