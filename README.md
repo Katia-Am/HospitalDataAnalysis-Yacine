@@ -200,6 +200,6 @@ This project demonstrates a **complete mini data analysis workflow**, just like 
 
 ## 👨‍💻 Author
 
-**Yacine Talahri**
+**Yassine Talahari**
 Master 1 – Advanced Python (2025-Boustil)
 From CSV → Visualization → GitHub 🚀
