@@ -186,6 +186,32 @@ git commit -m "Initial commit - TP2 Advanced Python"
    git push -u origin main
    ```
 
+## Step 9 – Collaboration: Cloning a Friend’s Repo & Updating Requirements
+
+For the final part of the TP, we collaborated by working with a classmate’s project (Hadil’s repository).
+Here’s what we did:
+
+Cloned our friend’s repository using the git clone command.
+ ```bash
+git clone https://github.com/HadilBoussensla/HospitalDataAnalysis.git
+   ```
+<img src="screenshots/clonage.png" width="700">
+
+Activated our own environment inside her project to ensure the same dependencies were available.
+
+conda activate HospitalDataAnalysis
+
+<img src="screenshots/her_project_my_env.png" width="700">
+
+Updated the requirements file to include the full list of dependencies from our environment.
+
+pip freeze > requirements.txt
+git add requirements.txt
+git commit -m "yassino updated requeirements.txt"
+git push
+
+<img src="screenshots/updating_requirements.png" width="700">
+
 ## 🧠 Summary
 
 we :
@@ -194,8 +220,9 @@ we :
 * Loaded and analyzed real data using Pandas
 * Visualized results with Matplotlib
 * Version-controlled and published your project on GitHub
+* Collaborated by cloning a teammate’s repo and updating dependencies
 
-This project demonstrates a **complete mini data analysis workflow**, just like in real-world data science.
+This project demonstrates a **complete mini data analysis workflow**
 
 ---
 
